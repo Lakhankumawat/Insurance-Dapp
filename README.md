@@ -12,6 +12,7 @@
 ### [1. Step by Step setup process](https://docs.google.com/document/d/1ckNbFSvRL5nds7QT1TUm_JlH_3IzqjxnRFGvbF6sv2U/edit?usp=sharing) 
 ### [2. Full Documentation (how to get started)](https://docs.google.com/document/d/1ynClS7kEH5Kis61t5U79GoZS8bsrk5vxRFzo8rUE_Xk/edit?usp=sharing)
 ### [3. Algorithms and Functions Overview for the code written in DApp](https://docs.google.com/document/d/1-ZXigzEItj4iuflfVJlX_LENoXQ2Syix7t0c6K95czE/edit?usp=sharing)
+### [4. Project Report](https://docs.google.com/document/d/1_-Wazme-RLkYtYMPrc6Wm93UHovB_Rh45dow2oea57U/edit?usp=sharing)
 
 ## Team Members 🦖
 ```
