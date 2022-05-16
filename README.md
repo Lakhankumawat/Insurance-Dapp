@@ -1,6 +1,9 @@
 # Insurance Claim System with Blockchain  
 
-<a href="https://img.shields.io/static/v1?label=LandRegistration&message=TruffleSuite&color=orange"><img src="https://img.shields.io/static/v1?label=LandRegistration&message=TruffleSuite&color=orange"></a>
+![insurance-dapp](https://user-images.githubusercontent.com/55774240/168523667-c581e84e-5039-4e33-8631-a20dd8f14994.svg)
+![block-chain](https://user-images.githubusercontent.com/55774240/168523765-29bf2ded-e448-44bc-beda-f89735977577.svg)
+![block-chain](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)
+
 <img src="https://img.shields.io/badge/Ethereum-20232A?style=for-the-badge&logo=ethereum&logoColor=white">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green"></a>
