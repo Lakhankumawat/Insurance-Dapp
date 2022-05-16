@@ -1,0 +1,386 @@
+:root {
+    background: #f5f6fa;
+    color: #9c9c9c;
+    font: 1rem "PT Sans", sans-serif;
+}
+
+html,
+body,
+.container {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+a.hover {
+    color: #7f8ff4;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+    width: 80%;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn--primary {
+    background: #7f8ff4;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 12px 36px;
+}
+
+btn.hover {
+    background: darken(#7f8ff4, 4%);
+}
+
+btn.active {
+    background: #7f8ff4;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+
+.due {
+    float: right;
+}
+
+
+.form__field {
+    width: 80%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 10px 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.landing-header {
+    display: flex;
+    padding-left: 3rem;
+}
+
+.landing-header--title {
+    margin-top: 1.5rem;
+}
+
+.landing-header--title h3 {
+    display: inline-block;
+    font-size: 3rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0.3rem;
+}
+
+.landing-content {
+    display: flex;
+}
+
+.landing-content--left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    width: 40%;
+}
+
+.landing-content--left div {
+    margin-left: 5rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    flex: 8;
+    font-family: 'Acme', sans-serif;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.landing-button {
+    margin-top: 0;
+}
+
+.landing-content--right img {
+    display: inline-block;
+    height: 60vh;
+    margin-left: 10vw;
+}
+
+
+/* From uiverse.io by @adamgiebl */
+.landing-button button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.2rem;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.landing-button button:active {
+    transform: scale(0.95);
+}
+
+.landing-button button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.landing-button button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.landing-button button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+.landing-button button:hover span {
+    transform: translateX(7px);
+}
+
+.hidden {
+    max-height: 20px !important;
+}
+
+.hidden-box {
+    width: 100%;
+}
+
+.hidden-box span {
+    margin-right: 2rem;
+}
+
+.hidden div {
+    display: inline !important;
+    visibility: visible;
+    font-family: 'PT Sans Narrow', sans-serif;
+    float: left;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin: 0
+}
+
+
+/* .hidden div{
+  display: none !important;
+  visibility: hidden;
+} */
+
+
+@media only screen and (max-width: 1500px) {
+    .landing-content--left {
+        margin-top: 6rem;
+    }
+
+    .landing-content--left div {
+        font-size: 2rem;
+    }
+
+    .landing-button {
+        margin-top: 4rem;
+    }
+
+    .landing-button button {
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .hidden-box {
+        width: 100%;
+    }
+
+    .hidden-box span {
+        margin-right: 2rem;
+    }
+
+    .hidden div {
+        display: inline !important;
+        visibility: visible;
+        font-family: 'PT Sans Narrow', sans-serif;
+        float: left;
+        font-weight: 900;
+        font-size: 1.2rem;
+        margin: 0
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .landing-content--left div {
+        font-size: 1.8rem;
+    }
+
+    .landing-content--left {
+        margin-top: 6rem;
+    }
+
+    .landing-button {
+        margin-top: 4rem;
+    }
+
+    .landing-button button {
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .landing-content--right img {
+        display: inline-block;
+        height: 50vh;
+        margin-left: 10vw;
+    }
+
+    .hidden-box {
+        width: 100%;
+    }
+
+    .hidden-box span {
+        margin-right: 2rem;
+    }
+
+    .hidden div {
+        display: inline !important;
+        visibility: visible;
+        font-family: 'PT Sans Narrow', sans-serif;
+        float: left;
+        font-weight: 900;
+        font-size: 1.2rem;
+        margin: 0
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .landing {
+        height: 100vh !important;
+        overflow-y: scroll !important;
+
+    }
+
+    .landing-header {
+        display: flex;
+        padding-left: 0;
+
+    }
+
+    .landing-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .landing-content--left {
+        width: 100vw;
+        margin-top: 0rem;
+    }
+
+    .landing-content--left div {
+        text-align: center;
+        margin-left: 0;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 2rem;
+        font-family: 'Acme', sans-serif;
+        color: rgba(0, 0, 0, 0.65);
+        font-weight: 500;
+    }
+
+    .landing-content--right {
+        width: 100vw;
+    }
+
+    .landing-content--right img {
+        display: block;
+        width: 100vw;
+        height: 90vw;
+        margin: 0 auto;
+
+    }
+
+    .landing-button {
+        text-align: center;
+        margin-bottom: 10rem !important;
+
+    }
+
+    .landing-button button {
+        cursor: none;
+        margin: 0 auto;
+        margin-top: 4rem;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+        padding: 1rem 2rem 1rem 1.5rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 900;
+    }
+
+    .hidden {
+        display: block;
+        flex-direction: row;
+        margin-top: 2rem !important;
+    }
+
+    .hidden-box {
+        display: block;
+        width: 100%;
+    }
+
+    .hidden div {
+        display: inline !important;
+        visibility: visible;
+        font-family: 'PT Sans Narrow', sans-serif;
+        float: none;
+        margin: 0 1rem;
+        font-weight: 900;
+        font-size: 1.8rem;
+    }
+
+    .hidden-box span {
+        margin-right: 0;
+    }
+
+
+}
+
+.btn-r {
+    float: right;
+    padding-right: 10px;
+    margin-left: 10px;
+}
