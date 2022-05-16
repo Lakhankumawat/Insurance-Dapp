@@ -1,4 +1,4 @@
-# Insurance Claim System with Blockchain  
+# Insurance Claim System with Blockchain  💻
 
 ![insurance-dapp](https://user-images.githubusercontent.com/55774240/168523667-c581e84e-5039-4e33-8631-a20dd8f14994.svg)
 ![block-chain](https://user-images.githubusercontent.com/55774240/168523765-29bf2ded-e448-44bc-beda-f89735977577.svg)
@@ -8,20 +8,25 @@
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green"></a>
 
-## Team Members:
+## Useful Links ⭐
+### [1. Step by Step setup process](https://docs.google.com/document/d/1ckNbFSvRL5nds7QT1TUm_JlH_3IzqjxnRFGvbF6sv2U/edit?usp=sharing) 
+### [2. Full Documentation (how to get started)](https://docs.google.com/document/d/1ynClS7kEH5Kis61t5U79GoZS8bsrk5vxRFzo8rUE_Xk/edit?usp=sharing)
+### [3. Algorithms and Functions Overview for the code written in DApp](https://docs.google.com/document/d/1-ZXigzEItj4iuflfVJlX_LENoXQ2Syix7t0c6K95czE/edit?usp=sharing)
+
+## Team Members 🦖
 ```
 1906055 Lakhan Kumawat (me)
   1906049 Rahul Kumar
   1906044 BrijMohan Diwakar
 ```
 
-## Project Description:
+## Project Description 📝
 
 Insurance app is a simple Dapp based on the ethereum blockchain. It can be used as an alternative to the existing approach. Here the insurance policy holder registers himself by providing necessary proofs. Only a registrar or government authority or company who is registered as the super admin can do the modifications to the system like adding new miners. The smart contract has been written in such a way that when user claims for insurance it will be analyzed by the authorized personnel or miner who are approved by the company or government, when the number of miners who verify a claim in greater than 50% than insurance claim is approved and the user is provided with the insurance money. Even though the registration process requires a government authority, the entire process is transparent and the transaction happens between the two clients without any intermediaries.
 
 
 
-## Tech Stack Used:
+## Tech Stack Used ⚒
 
 	Frontend:
 	* Javascript
@@ -35,7 +40,7 @@ Insurance app is a simple Dapp based on the ethereum blockchain. It can be used 
     * Ganache
 
 
-## Application features:  
+## Application features ✨
 
 * **Registration Page**: Home Page for Blockchain Insurance Dapp 
 * **Company Dashboard**: Company can then verify and add new employees(miners) to validate and approve insurance claims for new users.
@@ -46,7 +51,7 @@ Insurance app is a simple Dapp based on the ethereum blockchain. It can be used 
 
 
 
-## Steps to run the application:
+## Steps to run the application 🚩
 1. Clone the github repository and cd to the folder 
 2. Open _Ganache_ and keep it running in the Background.
 3. Make sure you have Metamask Extension in your browser.
@@ -55,7 +60,7 @@ Insurance app is a simple Dapp based on the ethereum blockchain. It can be used 
 6. Run _npm start_.
 
 
-## Some features of the application:-
+## Some features of the application 💎
 
 Landing Page                   |                   Company Dashboard
 :---------------------------------:        |      :------------------------------:
@@ -66,7 +71,7 @@ Employee Dashboard                   |                   User Dashboard
 <img src="https://user-images.githubusercontent.com/55774240/168523195-7129e197-0ebc-4887-ad7a-724bd095b3ad.png" height="200">     |<img src="https://user-images.githubusercontent.com/55774240/168523197-8b9457c9-eec5-4323-b884-103bb1e0ebc4.png" height="200"> |
 
 
-### Make sure to star the repository if you find it helpful!
+### Make sure to star the repository if you find it helpful 👀
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Lakhankumawat.Insurance-Dapp)
 
 
