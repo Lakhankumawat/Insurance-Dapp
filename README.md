@@ -65,6 +65,5 @@ Employee Dashboard                   |                   User Dashboard
 
 ### Make sure to star the repository if you find it helpful!
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Lakhankumawat.Insurance-Dapp)
-<a href="https://github.com/Lakhankumawat/Insurance-Dapp/stargazers"><img src="https://github.com/Lakhankumawat/Insurance-Dapp?color=yellow" alt="Stars Badge"/></a>
-<a href=https://github.com/Lakhankumawat/Insurance-Dapp/graphs/contributors"><img alt="GitHub contributors" src="https://github.com/Lakhankumawat/Insurance-Dapp?color=2b9348"></a>
+
 
