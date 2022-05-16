@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Insurance Claim System with Blockchain  
 
-## Getting Started
+<a href="https://img.shields.io/static/v1?label=LandRegistration&message=TruffleSuite&color=orange"><img src="https://img.shields.io/static/v1?label=LandRegistration&message=TruffleSuite&color=orange"></a>
+<img src="https://img.shields.io/badge/Ethereum-20232A?style=for-the-badge&logo=ethereum&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green"></a>
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+## Team Members:
+```
+1906055 Lakhan Kumawat (me)
+  1906049 Rahul Kumar
+  1906044 BrijMohan Diwakar
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Description:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Insurance app is a simple Dapp based on the ethereum blockchain. It can be used as an alternative to the existing approach. Here the insurance policy holder registers himself by providing necessary proofs. Only a registrar or government authority or company who is registered as the super admin can do the modifications to the system like adding new miners. The smart contract has been written in such a way that when user claims for insurance it will be analyzed by the authorized personnel or miner who are approved by the company or government, when the number of miners who verify a claim in greater than 50% than insurance claim is approved and the user is provided with the insurance money. Even though the registration process requires a government authority, the entire process is transparent and the transaction happens between the two clients without any intermediaries.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Tech Stack Used:
 
-To learn more about Next.js, take a look at the following resources:
+	Frontend:
+	* Javascript
+    * React Framework
+	* CSS
+    * Metamask Chrome Extension
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+	Backend:
+	* Ethereum Blockchain (Truffle Suite)
+    * Solidity
+    * Ganache
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Application features:  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Registration Page**: Home Page for Blockchain Insurance Dapp 
+* **Company Dashboard**: Company can then verify and add new employees(miners) to validate and approve insurance claims for new users.
+* **Employee Dashboard**: Miner can see all the insurace claims and can verify them.
+* **User Dashboard**: User can take new user policy can claim new types of insurance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+## Steps to run the application:
+1. Clone the github repository and cd to the folder 
+2. Open _Ganache_ and keep it running in the Background.
+3. Make sure you have Metamask Extension in your browser.
+4. In the root directory run _truffle migrate --reset_.
+5. cd to the _client_ folder and run _npm install_.
+6. Run _npm start_.
+
+
+## Some features of the application:-
+
+Landing Page                   |                   Company Dashboard
+:---------------------------------:        |      :------------------------------:
+<img src="https://user-images.githubusercontent.com/55774240/168523199-b2e39162-4252-4cba-8e5d-e75e2c3b2554.png" height="200">  | <img src="https://user-images.githubusercontent.com/55774240/168523190-e2fb6ca3-5797-40a9-a3af-623fe761e550.png" height="200">
+
+Employee Dashboard                   |                   User Dashboard
+:---------------------------------:        |      :------------------------------:
+<img src="https://user-images.githubusercontent.com/55774240/168523195-7129e197-0ebc-4887-ad7a-724bd095b3ad.png" height="200">     |<img src="https://user-images.githubusercontent.com/55774240/168523197-8b9457c9-eec5-4323-b884-103bb1e0ebc4.png" height="200"> |
+
+
+### Make sure to star the repository if you find it helpful!
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=Lakhankumawat.Insurance-Dapp)
+<a href="https://github.com/Lakhankumawat/Insurance-Dapp/stargazers"><img src="https://github.com/Lakhankumawat/Insurance-Dapp?color=yellow" alt="Stars Badge"/></a>
+<a href=https://github.com/Lakhankumawat/Insurance-Dapp/graphs/contributors"><img alt="GitHub contributors" src="https://github.com/Lakhankumawat/Insurance-Dapp?color=2b9348"></a>
+
